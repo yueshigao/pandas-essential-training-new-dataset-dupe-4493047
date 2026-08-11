@@ -21,3 +21,18 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 
 [lil-course-url]: https://www.linkedin.com/learning/pandas-essential-training-24082178
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQEEQCUkfFXY1A/learning-public-crop_675_1200/0/1716415632908?e=2147483647&v=beta&t=QFwu7XDQr6ANOJwwQCBJ9pVFIFSk6E4LBohSadle33g
+
+
+## Local Enviroment Setup
+
+This project could use a virtual environment to isolate dependencies.
+
+```bash
+# Create the virtual environment
+python3.12 -m venv venv
+
+# Activate it (macOS/Linux)
+source venv/bin/activate
+
+# Install required packages
+pip install -r requirements.txt
